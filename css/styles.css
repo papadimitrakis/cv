@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    color: #E7B10A;
+    background-color: #F7F1E5;
+    text-align: center;
+    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem;      /* 16px = 100% = 1em */   /* rem = root em (ignores parents configs)*/
+    margin: 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #4C4B16;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0 auto 50px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #4C4B16;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #898121;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: #E7B10A;
+    border-width: 7px;
+    background-color: #F7F1E5;
+    width: 5%;
+}
+
+.profile {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+    padding: 20px;
+}
+
+.instagram-link {
+    margin: 20px;
+    color: #4C4B16;
+    text-decoration: none;
+}
+.facebook-link {
+    margin: 20px;
+    color: #4C4B16;
+    text-decoration: none;
+}
+
+.btn{
+    color: #4C4B16;
+}
+
+.skills {
+    margin: 100px auto 100px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer-pic {
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+}
+
+.chess-pic {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.me-pic {
+    width: 25%;
+}
+
+.contact-me {
+    margin: 100px auto 50px auto;
+    width: 60%;
+    text-align: center;
+    line-height: 2;
+}
+
+.bottom-container {
+    background-color: #898121;
+}
+
+.employ-me {
+    margin: 30px auto 50px auto;
+}
+
+.btn {
+    margin-top: 100px;
+    background-color: #898121;
+    background-image: -webkit-linear-gradient(top, #898121, #4C4B16);
+    background-image: -moz-linear-gradient(top, #898121, #4C4B16);
+    background-image: -ms-linear-gradient(top, #898121, #4C4B16);
+    background-image: -o-linear-gradient(top, #898121, #4C4B16);
+    background-image: linear-gradient(to bottom, #898121, #4C4B16);
+    border-radius: 8px;
+    color: #E7B10A;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+  background: #4C4B16;
+  background-image: -webkit-linear-gradient(top, #4C4B16, #898121);
+  background-image: -moz-linear-gradient(top, #4C4B16, #898121);
+  background-image: -ms-linear-gradient(top, #4C4B16, #898121);
+  background-image: -o-linear-gradient(top, #4C4B16, #898121);
+  background-image: linear-gradient(to bottom, #4C4B16, #898121);
+  text-decoration: none;
+}
+
+.end-info {
+    margin: 30px auto 0 auto;
+    font-size: 12px;
+}
